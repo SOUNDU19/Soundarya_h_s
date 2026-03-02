@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soundarya HS | Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar">
+    <div class="logo">Soundarya HS</div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <i class="fas fa-bars menu-icon" id="menuBtn"></i>
+  </nav>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero">
+    <img src="Soundarya.jpg" alt="Profile Photo" data-aos="zoom-in" data-aos-duration="1000" />
+
+    <div class="hero-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+      <h3>Hello, I'm</h3>
+      <h1>Soundarya H S</h1>
+
+      <!-- TYPING EFFECT -->
+      <div class="roles" id="typing"></div>
+
+      <div class="hero-buttons">
+        <a href="Soundarya_CV.pdf" download class="btn">Download CV</a>
+        <a href="#contact" class="btn contact">Contact Me</a>
+      </div>
+
+      <!-- SOCIAL ICONS -->
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/soundarya-h-s-4739332a6" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/SOUNDU19" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/soundaryas63?igsh=MXdubDN5aWpkdW1oMw==" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto://ssoundarya090@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section id="about" class="about-section">
+    <h2 class="section-title" data-aos="fade-up" data-aos-duration="800">About Me</h2>
+
+    <div class="about-content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+       <p>
+        Hello! I'm <strong>Soundarya H S</strong>, a passionate and dedicated
+        Computer Science and Engineering student with a strong interest in
+        <strong>Artificial Intelligence, Machine Learning, Web Development, and C++ programming</strong>.
+        Coming from a humble rural background, I have always believed in the power of
+        hard work, consistency, and continuous learning.
+      </p>
+   <p>
+        My journey into the world of technology started with curiosity — how apps
+        work, how websites are built, and how AI is shaping the future. Over time,
+        this curiosity grew into a strong passion that motivates me every day to
+        learn, innovate, and create real-world projects that make a difference.
+      </p>
+         <p>
+        I have hands-on experience in building projects like a
+        <strong>Resume Analyzer using NLP</strong>, <strong>Instagram Clone</strong>,
+        and multiple small web applications using <strong>HTML, CSS, JavaScript, and React</strong>.
+        I am also an <strong>AIML enthusiast</strong> who loves exploring data, building
+        smart systems, and solving problems using algorithms.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= EDUCATION SECTION ================= -->
+   <section id="education" class="about-section">
+    <h2 class="section-title" data-aos="fade-up" data-aos-duration="800">Education</h2>
+
+    <div class="edu-card" data-aos="flip-left" data-aos-duration="800">
+      <h3>B.E. Computer Science and Engineering</h3>
+      <p>East West Institute of Technology, Bangalore</p>
+      <p>CGPA: 8.7</p>
+      <p>2022 – Present</p>
+    </div>
+
+    <div class="edu-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="100">
+      <h3>PUC (PCMB)</h3>
+      <p>Jnanabharathi PU College, Kunigal</p>
+      <p>Percentage: 92.03%</p>
+      <p>2020 – 2022</p>
+    </div>
+
+    <div class="edu-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="200">
+      <h3>SSLC</h3>
+      <p>GHS Government High School, Ujjani</p>
+      <p>Percentage: 92.47%</p>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS SECTION ================= -->
+  <section id="skills" class="skills-section">
+    <h2 class="section-title" data-aos="fade-up" data-aos-duration="800">Skills</h2>
+
+    <div class="skills-tabs" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+      <button class="tab-btn active" onclick="openTab('tech')">Technical Skills</button>
+      <button class="tab-btn" onclick="openTab('soft')">Soft Skills</button>
+    </div>
+
+    <!-- Technical Skills -->
+    <div id="tech" class="tab-content active">
+      <ul class="skill-list">
+        <li>HTML, CSS, JavaScript, React, Tailwind</li>
+        <li>Node.js, Express, MongoDB, MySQL</li>
+        <li>Python, C, C++, Java</li>
+        <li>Git, GitHub, VS Code</li>
+      </ul>
+    </div>
+
+    <!-- Soft Skills -->
+    <div id="soft" class="tab-content">
+      <ul class="skill-list">
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Problem Solving</li>
+        <li>Leadership</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS SECTION ================= -->
+  <section id="projects" class="projects-section">
+    <h2 class="section-title" data-aos="fade-up" data-aos-duration="800">Projects</h2>
+
+    <div class="projects-container">
+
+      <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+        <div class="project-icon">
+          <i class="fas fa-robot"></i>
+        </div>
+        <h3>AI-Powered Ticket Creation & Categorization System</h3>
+        <p class="project-description">
+          Developed an intelligent ticket management system that automatically generates structured support tickets from unstructured user input (chat/email/web form).
+        </p>
+        
+        <div class="project-features">
+          <div class="feature-item">
+            <i class="fas fa-check-circle"></i>
+            <span>NLP for understanding user input</span>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Automatic ticket generation</span>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Smart ML-based categorization</span>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Priority prediction & real-time dashboard</span>
+          </div>
+        </div>
+
+        <div class="tech-stack">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">FastAPI</span>
+          <span class="tech-tag">Machine Learning</span>
+          <span class="tech-tag">NLP</span>
+          <span class="tech-tag">Scikit-learn</span>
+          <span class="tech-tag">Pandas</span>
+        </div>
+
+        <div class="project-role">
+          <strong>My Role:</strong> Designed backend logic, implemented ML model, integrated APIs, built dashboard UI
+        </div>
+
+        <div class="project-buttons">
+          <a href="https://ticket-creation-rho.vercel.app/landing.html" target="_blank" class="project-btn">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <div class="project-icon">
+          <i class="fas fa-file-alt"></i>
+        </div>
+        <h3>Resume Analyzer (NLP)</h3>
+        <p class="project-description">
+          A web app built using Streamlit & Python with resume parsing, NER and ML classification.
+        </p>
+        
+        <div class="tech-stack">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Streamlit</span>
+          <span class="tech-tag">NLP</span>
+          <span class="tech-tag">Machine Learning</span>
+        </div>
+
+        <div class="project-buttons">
+          <a href="https://github.com/SOUNDU19/Resume-Anlyser-Project.git" class="project-btn">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE SECTION ================= -->
+  <section id="experience" class="experience-section">
+    <h2 class="section-title" data-aos="fade-up" data-aos-duration="800">Experience</h2>
+
+    <div class="experience-container">
+      <div class="experience-card" data-aos="fade-right" data-aos-duration="1000">
+        <div class="experience-timeline-dot"></div>
+        
+        <div class="experience-header">
+          <div class="company-logo">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="experience-info">
+            <h3>AI/ML Intern</h3>
+            <h4>Infosys Springboard</h4>
+            <p class="duration">
+              <i class="far fa-calendar-alt"></i> 2026
+            </p>
+          </div>
+        </div>
+
+        <div class="experience-description">
+          <ul class="responsibilities-list">
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              Worked on AI & ML based real-world problem solving
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              Implemented Machine Learning models for various applications
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              Learned model evaluation and optimization techniques
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              Completed hands-on projects in NLP and data analysis
+            </li>
+          </ul>
+        </div>
+
+        <div class="internship-project">
+          <div class="project-highlight">
+            <i class="fas fa-star"></i>
+            <span>Key Project Delivered</span>
+          </div>
+          <h4>AI-Powered Ticket Creation & Categorization System</h4>
+          <p>Built an intelligent ticket management system with NLP, ML-based categorization, and real-time dashboard</p>
+          <a href="https://ticket-creation-rho.vercel.app/landing.html" target="_blank" class="internship-project-link">
+            <i class="fas fa-external-link-alt"></i> View Live Project
+          </a>
+        </div>
+
+        <div class="experience-skills">
+          <span class="skill-badge">Artificial Intelligence</span>
+          <span class="skill-badge">Machine Learning</span>
+          <span class="skill-badge">NLP</span>
+          <span class="skill-badge">Data Analysis</span>
+          <span class="skill-badge">Python</span>
+          <span class="skill-badge">FastAPI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section id="contact">
+    <p class="subtitle" data-aos="fade-up" data-aos-duration="800">Get in Touch</p>
+    <h2 class="section-title" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Contact Me</h2>
+
+    <div class="contact-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+
+      <a href="mailto:ssoundarya090@gmail.com" class="contact-item">
+        <i class="fas fa-envelope"></i>
+        ssoundarya090@gmail.com
+      </a>
+
+      <a href="https://www.linkedin.com/in/soundarya-h-s-4739332a6" class="contact-item">
+        <i class="fab fa-linkedin"></i>
+        LinkedIn
+      </a>
+
+      <a href="https://www.instagram.com/soundaryas63?igsh=MXdubDN5aWpkdW1oMw==" class="contact-item">
+        <i class="fab fa-instagram"></i>
+        Instagram
+      </a>
+    </div>
+
+    <p class="footer">© 2025 Soundarya H S. All Rights Reserved.</p>
+  </section>
+
+<script src="script.js"></script>
+
+<!-- AOS Animation Library -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: false,
+    mirror: true,
+    offset: 100,
+    easing: 'ease-in-out'
+  });
+</script>
+</body>
+</html>
