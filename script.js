@@ -18,7 +18,7 @@ navLinks.querySelectorAll('a').forEach(link => {
 // =========================
 // AUTO TYPING EFFECT
 // =========================
-const roles = ["C++ Developer", "AIML Enthusiast", "Web Developer"];
+const roles = ["Java Developer", "AI/ML Enthusiast", "Full-Stack Developer & Problem Solver"];
 let index = 0;
 let charIndex = 0;
 
